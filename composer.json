@@ -1,5 +1,6 @@
 {
     "name": "astrotomic/laravel-mime",
+    "type": "library",
     "description": "Laravel wrapper for symfony/mime",
     "keywords": [
         "astrotomic",
@@ -7,7 +8,6 @@
     ],
     "homepage": "https://github.com/astrotomic/laravel-mime",
     "license": "MIT",
-    "type": "library",
     "authors": [
         {
             "name": "Tom Witkowski",
@@ -24,16 +24,6 @@
         "orchestra/testbench": "^4.0",
         "phpunit/phpunit": "^8.0"
     },
-    "autoload": {
-        "psr-4": {
-            "Astrotomic\\LaravelMime\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Astrotomic\\LaravelMime\\Tests\\": "tests"
-        }
-    },
     "config": {
         "sort-packages": true
     },
@@ -42,6 +32,16 @@
             "providers": [
                 "Astrotomic\\LaravelMime\\MimeTypesServiceProvider"
             ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Astrotomic\\LaravelMime\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Astrotomic\\LaravelMime\\Tests\\": "tests"
         }
     }
 }
