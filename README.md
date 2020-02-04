@@ -17,14 +17,10 @@ composer require astrotomic/laravel-mime
 ## Usage
 
 ``` php
-// facade
 use Astrotomic\LaravelMime\Facades\MimeTypes;
 
-// container bindings
-app('laravel-mime');
-app(\Symfony\Component\Mime\MimeTypes::class);
-app(\Symfony\Component\Mime\MimeTypesInterface::class);
-app(\Symfony\Component\Mime\MimeTypeGuesserInterface::class);
+MimeTypes::getExtensions($mimeTypes);
+MimeTypes::getMimeTypes($extensions);
 ```
 
 ## Credits
