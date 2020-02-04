@@ -3,22 +3,23 @@
 namespace Astrotomic\LaravelMime\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Symfony\Component\Mime\MimeTypesInterface;
+use Astrotomic\LaravelMime\MimeTypes as AstrotomicMimeTypes;
 
 /**
  * @method static bool isGuesserSupported()
  * @method static null|string guessMimeType(string $path)
- * @method static string[] getExtensions(string $mimeType)
- * @method static string[] getMimeTypes(string $ext)
+ * @method static string[] getExtensions(string|string[] $mimeTypes)
+ * @method static string[] getMimeTypes(string|string[] $extensions)
  *
  * @see \Symfony\Component\Mime\MimeTypeGuesserInterface
  * @see \Symfony\Component\Mime\MimeTypesInterface
  * @see \Symfony\Component\Mime\MimeTypes
+ * @see \Astrotomic\LaravelMime\MimeTypes
  */
 class MimeTypes extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return MimeTypesInterface::class;
+        return AstrotomicMimeTypes::class;
     }
 }
