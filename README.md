@@ -31,7 +31,6 @@ Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONT
 
 If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
 
-
 ## Credits
 
 - [Tom Witkowski](https://github.com/Gummibeer)
