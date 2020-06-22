@@ -1,3 +1,5 @@
+
+
 # Laravel Mime
 
 [![Latest Version](http://img.shields.io/packagist/v/astrotomic/laravel-mime.svg?label=Release&style=for-the-badge&cacheSeconds=600)](https://packagist.org/packages/astrotomic/laravel-mime)
@@ -30,9 +32,7 @@ MimeTypes::getMimeTypes($extensions);
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
-
-## Treeware
+The MIT License (MIT). Please see [License File](LICENSE) for more information.## Treeware
 
 You're free to use this package, but if it makes it to your production environment I would highly appreciate you buying the world a tree.
 
