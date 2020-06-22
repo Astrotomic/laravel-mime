@@ -16,7 +16,7 @@ composer require astrotomic/laravel-mime
 
 ## Usage
 
-``` php
+```php
 use Astrotomic\LaravelMime\Facades\MimeTypes;
 
 MimeTypes::getExtensions($mimeTypes);
