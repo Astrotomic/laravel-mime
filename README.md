@@ -23,6 +23,15 @@ MimeTypes::getExtensions($mimeTypes);
 MimeTypes::getMimeTypes($extensions);
 ```
 
+## Contributing
+
+Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/Astrotomic/.github/blob/master/CODE_OF_CONDUCT.md).
+
+### Security
+
+If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
+
+
 ## Credits
 
 - [Tom Witkowski](https://github.com/Gummibeer)
@@ -41,11 +50,3 @@ It’s now common knowledge that one of the best tools to tackle the climate cri
 You can buy trees at [offset.earth/treeware](https://plant.treeware.earth/Astrotomic/laravel-mime)
 
 Read more about Treeware at [treeware.earth](https://treeware.earth)
-
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/Astrotomic/.github/blob/master/CONTRIBUTING.md) for details. You could also be interested in [CODE OF CONDUCT](https://github.com/Astrotomic/.github/blob/master/CODE_OF_CONDUCT.md).
-
-### Security
-
-If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
