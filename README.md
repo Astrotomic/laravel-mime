@@ -1,5 +1,3 @@
-
-
 # Laravel Mime
 
 [![Latest Version](http://img.shields.io/packagist/v/astrotomic/laravel-mime.svg?label=Release&style=for-the-badge&cacheSeconds=600)](https://packagist.org/packages/astrotomic/laravel-mime)
