@@ -40,4 +40,6 @@ It’s now common knowledge that one of the best tools to tackle the climate cri
 
 You can buy trees at [offset.earth/treeware](https://plant.treeware.earth/Astrotomic/laravel-mime)
 
-Read more about Treeware at [treeware.earth](https://treeware.earth)
+Read more about Treeware at [treeware.earth](https://treeware.earth)### Security
+
+If you discover any security related issues, please check [SECURITY](https://github.com/Astrotomic/.github/blob/master/SECURITY.md) for steps to report it.
