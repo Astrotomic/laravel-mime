@@ -3,6 +3,7 @@
 [![Latest Version](http://img.shields.io/packagist/v/astrotomic/laravel-mime.svg?label=Release&style=for-the-badge&cacheSeconds=600)](https://packagist.org/packages/astrotomic/laravel-mime)
 [![MIT License](https://img.shields.io/github/license/Astrotomic/laravel-mime.svg?label=License&color=blue&style=for-the-badge&cacheSeconds=600)](https://github.com/Astrotomic/laravel-mime/blob/master/LICENSE)
 [![Offset Earth](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-green?style=for-the-badge&cacheSeconds=600)](https://plant.treeware.earth/Astrotomic/laravel-mime)
+[![Larabelles](https://img.shields.io/badge/Larabelles-%F0%9F%A6%84-lightpink?style=for-the-badge)](https://www.larabelles.com/)
 
 This package provides Laravel service bindings for [symfony/mime](https://symfony.com/doc/current/components/mime.html).
 
