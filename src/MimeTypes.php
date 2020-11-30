@@ -21,9 +21,9 @@ class MimeTypes
     /**
      * @param string|string[] $mimeTypes
      *
-     * @return array
+     * @return \Illuminate\Support\Collection
      */
-    public function getExtensions($mimeTypes): array
+    public function getExtensions($mimeTypes): Collection
     {
         return Collection::make(Arr::wrap($mimeTypes))
             ->map(function (string $mimeType): array {
@@ -31,16 +31,15 @@ class MimeTypes
             })
             ->collapse()
             ->unique()
-            ->values()
-            ->all();
+            ->values();
     }
 
     /**
      * @param string|string[] $extensions
      *
-     * @return array
+     * @return \Illuminate\Support\Collection
      */
-    public function getMimeTypes($extensions): array
+    public function getMimeTypes($extensions): Collection
     {
         return Collection::make(Arr::wrap($extensions))
             ->map(function (string $extension): array {
@@ -48,8 +47,7 @@ class MimeTypes
             })
             ->collapse()
             ->unique()
-            ->values()
-            ->all();
+            ->values();
     }
 
     public function __call(string $method, array $arguments)

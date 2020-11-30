@@ -4,7 +4,6 @@ namespace Astrotomic\LaravelMime\Tests;
 
 use Astrotomic\LaravelMime\MimeTypes;
 use Astrotomic\LaravelMime\MimeTypesServiceProvider;
-use Illuminate\Support\Arr;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\Mime\MimeTypeGuesserInterface;
 use Symfony\Component\Mime\MimeTypes as SymfonyMimeTypes;
@@ -49,8 +48,8 @@ class MimeTypesTest extends TestCase
         ]);
 
         $this->assertEquals(
-            Arr::sort(['png', 'jpeg', 'jpg', 'jpe', 'jp2', 'jpg2']),
-            Arr::sort($extensions)
+            ['png', 'jpg', 'jpeg', 'jpe', 'jp2', 'jpg2'],
+            $extensions->all()
         );
     }
 
@@ -67,8 +66,8 @@ class MimeTypesTest extends TestCase
         ]);
 
         $this->assertEquals(
-            Arr::sort(['image/png', 'image/jpeg', 'image/pjpeg', 'image/jp2', 'image/jpeg2000', 'image/jpeg2000-image', 'image/x-jpeg2000-image']),
-            Arr::sort($extensions)
+            ['image/png', 'image/jpeg', 'image/pjpeg', 'image/jp2', 'image/jpeg2000', 'image/jpeg2000-image', 'image/x-jpeg2000-image'],
+            $extensions->all()
         );
     }
 
