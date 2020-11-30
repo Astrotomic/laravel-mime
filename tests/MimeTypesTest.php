@@ -47,7 +47,7 @@ class MimeTypesTest extends TestCase
             'image/jpeg2',
         ]);
 
-        $this->assertEquals(
+        $this->assertEqualsArray(
             ['png', 'jpg', 'jpeg', 'jpe', 'jp2', 'jpg2'],
             $extensions->all()
         );
@@ -65,7 +65,7 @@ class MimeTypesTest extends TestCase
             'jpg2',
         ]);
 
-        $this->assertEquals(
+        $this->assertEqualsArray(
             ['image/png', 'image/jpeg', 'image/pjpeg', 'image/jp2', 'image/jpeg2000', 'image/jpeg2000-image', 'image/x-jpeg2000-image'],
             $extensions->all()
         );
@@ -85,5 +85,9 @@ class MimeTypesTest extends TestCase
         return [
             [MimeTypes::class],
         ];
+    }
+
+    protected static function assertEqualsArray(array $expected, array $actual) {
+        static::assertSame(count($expected), count(array_intersect($expected, $actual)));
     }
 }
